@@ -144,6 +144,89 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #2D325C;
+}
+
+.pokemon:hover:where(.grass) {
+    border: 5px solid #407A25;
+}
+
+.pokemon:hover:where(.normal) {
+    border: 5px solid #5B5C38;
+}
+
+.pokemon:hover:where(.fire) {
+    border: 5px solid #A14C10;
+}
+
+.pokemon:hover:where(.water) {
+    border: 5px solid #3555A1;
+}
+
+.pokemon:hover:where(.electric) {
+    border: 5px solid #AB8C10;
+}
+
+.pokemon:hover:where(.ice) {
+    border: 5px solid #54888A;
+}
+
+.pokemon:hover:where(.ground) {
+    border: 5px solid #EBE263;
+}
+
+.pokemon:hover:where(.flying) {
+    border: 5px solid #E389F8;
+}
+
+.pokemon:hover:where(.psychic) {
+    border: 5px solid #FA6F4B;
+}
+
+.pokemon:hover:where(.fighting) {
+    border: 5px solid #CC5B21;
+}
+
+.pokemon:hover:where(.poison) {
+    border: 5px solid #AD3D3D;
+}
+
+.pokemon:hover:where(.dark) {
+    border: 5px solid #806D49;
+}
+
+.pokemon:hover:where(.rock) {
+    border: 5px solid #BBC431;
+}
+
+.pokemon:hover:where(.bug) {
+    border: 5px solid #3BC418;
+}
+
+.pokemon:hover:where(.ghost) {
+    border: 5px solid #9B58A3;
+}
+
+.pokemon:hover:where(.steel) {
+    border: 5px solid #CDB6DB;
+}
+
+.pokemon:hover:where(.dragon) {
+    border: 5px solid #D72DFA;
+}
+
+.pokemon:hover:where(.fairy) {
+    border: 5px solid #FDB5A4;
+}
+
+.abilities {
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
 }
 
 @media screen and (min-width: 380px) {
